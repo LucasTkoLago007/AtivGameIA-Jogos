@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Atividade Game IA - Steering Behaviors
 
 Atividade prática desenvolvida em Java com LibGDX.
@@ -24,3 +25,6 @@ Atividade prática desenvolvida em Java com LibGDX.
 ```powershell
 .\gradlew.bat clean lwjgl3:run
 ```
+=======
+# AtivGameIA-Jogos
+>>>>>>> a577bac839f87b08ef75024a3e40955a72f9435e
