@@ -59,7 +59,7 @@ public class Main extends ApplicationAdapter {
         viewport = new FitViewport(WORLD_WIDTH, WORLD_HEIGHT);
         shapeRenderer = new ShapeRenderer();
         batch = new SpriteBatch();
-        font = new BitmapFont();
+        font = new BitmapFont();   
         font.getData().setScale(1.2f);
 
         agente = new Agente(WORLD_WIDTH / 2f, WORLD_HEIGHT / 2f);
