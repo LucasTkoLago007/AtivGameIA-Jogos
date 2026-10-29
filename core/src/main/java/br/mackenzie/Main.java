@@ -139,9 +139,7 @@ public class Main extends ApplicationAdapter {
         return mouse;
     }
 
-    // ---------------------------------------------------------------
     // 1) SEEK + ARRIVE
-    // ---------------------------------------------------------------
     private void atualizarSeekArrive(float delta) {
         if (Gdx.input.justTouched()) {
             alvoClique.set(mouseNoMundo());
@@ -172,9 +170,7 @@ public class Main extends ApplicationAdapter {
         }
     }
 
-    // ---------------------------------------------------------------
     // 2) WANDER + FSM + PURSUIT
-    // ---------------------------------------------------------------
     private void atualizarWanderFSM(float delta) {
         Vector2 mouse = mouseNoMundo();
 
@@ -210,9 +206,7 @@ public class Main extends ApplicationAdapter {
         agente.wrap(WORLD_WIDTH, WORLD_HEIGHT);
     }
 
-    // ---------------------------------------------------------------
     // 3) FLOCKING - BÔNUS
-    // ---------------------------------------------------------------
     private void atualizarFlocking(float delta) {
         Array<Vector2> forcas = new Array<>();
 
@@ -310,9 +304,7 @@ public class Main extends ApplicationAdapter {
         return atual.seek(centro);
     }
 
-    // ---------------------------------------------------------------
     // DESENHO
-    // ---------------------------------------------------------------
     private void desenharMundo() {
         shapeRenderer.setProjectionMatrix(viewport.getCamera().combined);
 
